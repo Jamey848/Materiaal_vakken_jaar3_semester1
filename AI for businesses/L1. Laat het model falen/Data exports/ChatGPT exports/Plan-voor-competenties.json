@@ -1,0 +1,382 @@
+[
+  {
+    "id": "8778c57a-8e78-4c4a-bc47-43a62e923e6e",
+    "ids": [
+      "8778c57a-8e78-4c4a-bc47-43a62e923e6e"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "I've hit a roadblock.\n\nSo: Me need fill in portflow. Me then also need to make plans to continue working on the \"roles\" specified in the portflow. One such role, I just don't know what plans I can make for in order to fullfill it:\n\nDe startende professional stelt zich **constructief kritisch** op en is gericht op het **optimaliseren** van het eigen **handelen** en dat van anderen op basis van **feedback** en **reflectie**. Hij blijft op de hoogte van nieuwe inzichten en tendensen en **leert continu** bij. Hij handelt **ethisch**, **deontologisch** en **inclusief** als **wereldburger**. Hij kan opbouwend in **teamverband** werken.  \n\nSubgoals:\n\n1. **Constructief Kritisch**\n\n2.  \n\n   **Handelen obv feedback en reflectie**\n\n\n\n3.\n\n   **op de hoogte blijven, bijleren**\n\n\n\n\n\n4.  \n\n   **Wereldburger**\n\n\n\n5.\n\n   **Opbouwend en in teamverband**\n"
+      }
+    ],
+    "created_at": "2026-09-27 20:07:39",
+    "updated_at": 1790532476.094548
+  },
+  {
+    "id": "b2a649dd-1174-4ef8-bbed-6ec56171b170",
+    "ids": [
+      "b2a649dd-1174-4ef8-bbed-6ec56171b170"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Yeah, I see why you're stuck. This kind of competency statement is **very broad and abstract**, while a portfolio usually wants you to turn it into things you can actually *do* and later prove with evidence.\n\nThe trick is to translate each subgoal into **observable actions**. You don't need a grand life plan—you need small, concrete things you can actually do during your studies/work and then reflect on afterward.\n\nHere's how I'd break it down:\n\n| Subgoal | What it means in practice | Possible plan/action | Evidence for portfolio |\n|---|---|---|---|\n| **1. Constructief kritisch** | You don't blindly accept information/ideas; you question them and explain your reasoning respectfully. | During group projects, deliberately ask at least one critical question about an approach, assumption, or source. Practice giving feedback that includes both a strength and a concrete improvement. | Feedback you've given/received, reflection on a group project, revised work showing an improvement. |\n| **2. Handelen o.b.v. feedback en reflectie** | You use feedback to actually change how you work, rather than just receiving it. | After an assignment/project, ask a teacher/peer for specific feedback. Write down 1–2 things to improve and deliberately apply them in your next assignment/project. | Before/after examples, feedback forms, reflection, notes showing what you changed. |\n| **3. Op de hoogte blijven & bijleren** | You keep developing beyond what is immediately required for an assignment. | Pick one relevant topic/trend each month and spend 30–60 minutes reading/watching/listening about it. Share one useful insight with classmates or apply it in your work. | List of sources/topics, short reflections, certificates, notes, examples where you applied new knowledge. |\n| **4. Wereldburger** | You consider ethical, social, cultural, environmental and/or societal consequences of your professional actions. | For one project, explicitly investigate an ethical or societal aspect of the solution. Consider accessibility/inclusivity and how different groups could be affected. | Ethical analysis, reflection, adapted design/solution, discussion notes. |\n| **5. Opbouwend en in teamverband** | You contribute to a team, communicate respectfully, take responsibility and help the group move forward. | In your next group project, consciously take responsibility for a specific task and regularly check whether the team needs help. Ask the team afterward what you could improve. | Division of tasks, peer feedback, meeting notes, reflection, project result. |\n\n### If you need to write these as actual \"plans\"\n\nI'd make them **SMART-ish**, but not so rigid that they become annoying to maintain. For example:\n\n**1. Constructief kritisch**\n\n> Tijdens mijn volgende groepsopdracht wil ik actief oefenen met het constructief in vraag stellen van ideeën en gemaakte keuzes. Ik zal minstens twee keer een kritische vraag of alternatief voorstellen en hierbij steeds mijn standpunt onderbouwen. Daarnaast zal ik minstens één keer constructieve feedback geven aan een medestudent.\n\n**2. Handelen op basis van feedback en reflectie**\n\n> Na elke grotere opdracht wil ik actief feedback vragen aan een docent of medestudent. Ik noteer hierbij minstens twee werkpunten en kies minstens één werkpunt dat ik bewust toepas bij een volgende opdracht. Achteraf reflecteer ik kort over het effect hiervan.\n\n**3. Op de hoogte blijven en bijleren**\n\n> Ik wil mijn kennis blijven uitbreiden door minstens één keer per maand een relevant artikel, video, podcast, onderzoek of andere bron over mijn vakgebied te bekijken. Ik noteer kort wat ik geleerd heb en hoe dit relevant kan zijn voor mijn toekomstige professionele handelen.\n\n**4. Wereldburger**\n\n> Bij minstens één project wil ik bewust stilstaan bij de ethische, maatschappelijke en inclusieve aspecten van mijn werk. Ik onderzoek welke gevolgen mijn oplossing kan hebben voor verschillende gebruikers of groepen en pas mijn aanpak aan wanneer ik hierdoor een mogelijk probleem ontdek.\n\n**5. Opbouwend en in teamverband**\n\n> Tijdens groepsopdrachten wil ik niet alleen mijn eigen taken uitvoeren, maar ook actief bijdragen aan de samenwerking. Ik neem verantwoordelijkheid voor mijn afgesproken taken, communiceer tijdig wanneer iets niet lukt en vraag regelmatig aan mijn teamleden of er nog ondersteuning nodig is. Na een groepsopdracht vraag ik minstens één teamlid om feedback over mijn bijdrage aan de samenwerking.\n\n### One important thing\n\nYou **don't necessarily need five completely separate activities**.\n\nOne good group project could give you evidence for **all five**:\n\n> **Group project →** question the team's approach → receive feedback → research a new technique → consider accessibility/ethics → collaborate and reflect afterward.\n\nThat is actually much more manageable for a portfolio.\n\nIf your portfolio has a specific format such as **\"beginsituatie → doel → actieplan → timing → succescriteria → bewijs\"**, I can also  so you can basically paste them into your Portflow."
+      }
+    ],
+    "created_at": "2026-09-27 20:07:41",
+    "updated_at": 1790532475.421581
+  },
+  {
+    "id": "d9b706de-3db7-44dc-8a85-be06e1276921",
+    "ids": [
+      "d9b706de-3db7-44dc-8a85-be06e1276921"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Ok but about the \"constructief kritisch\"...\nI'm wondering I'm wondering... I... I don't know....\n\nI... Ugh!"
+      }
+    ],
+    "created_at": "2026-09-27 20:11:57",
+    "updated_at": 1790532726.446806
+  },
+  {
+    "id": "c625a443-3301-494c-a134-4d2cba9f0d68",
+    "ids": [
+      "c625a443-3301-494c-a134-4d2cba9f0d68"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Haha, I think I know the feeling. 😭 You're staring at **\"constructief kritisch\"** and your brain is going:\n\n> *\"Okay... but what the hell am I actually supposed to DO?\"*\n\nAnd honestly, that's a fair reaction. The phrase is vague.\n\nLet's forget the portfolio wording for a second.\n\n**Being constructief kritisch does NOT mean you have to constantly criticize people or play devil's advocate.**\n\nIt can simply mean:\n\n> **\"I don't automatically assume that the first idea/solution is the best one. I think about it, ask questions, and if I see something that could be improved, I say so in a useful way.\"**\n\nSo maybe the thing you're struggling with is that you don't want to invent some fake activity like *\"I will make three critical remarks during every group project.\"* That would feel incredibly artificial.\n\nInstead, think about **where you naturally encounter things you could question.**\n\nFor example:\n\n- You get an assignment → *\"Why are we approaching it this way? Is there another way?\"*\n- Someone proposes an idea → *\"What are the advantages/disadvantages of this?\"*\n- You receive information → *\"Where does this information come from? Can I trust it?\"*\n- You make something yourself → *\"What isn't working here, and how could I improve it?\"*\n- A teacher gives feedback → *\"Do I understand why they are suggesting this? How could I apply it?\"*\n- Your team makes a decision → *\"Have we considered the consequences for X?\"*\n\nAnd **constructive** is the important part.\n\nNot:\n\n> \"This is a bad idea.\"\n\nBut:\n\n> \"I see why we chose this approach, but I wonder if X could cause a problem. Could we consider Y instead?\"\n\n### So perhaps your plan could be ridiculously simple:\n\n> **During my next project, I will consciously question my own work and the choices made by my team. When I notice something that could be improved, I will explain why and, where possible, suggest an alternative. Afterwards, I will reflect on whether my critical input actually contributed to improving the end result.**\n\nThat's a *real* development goal. You aren't pretending you're going to become the world's most critical thinker overnight.\n\nAnd actually, there's another possibility:\n\n**Maybe you're not struggling with coming up with a plan. Maybe you're struggling because you don't know whether you're already good at this.**\n\nIf that's the case, we can approach it completely differently: **figure out what \"constructief kritisch\" looks like in *your* actual behaviour**, and then make a plan based on your current weakness rather than inventing an arbitrary activity."
+      }
+    ],
+    "created_at": "2026-09-27 20:11:59",
+    "updated_at": 1790532725.944603
+  },
+  {
+    "id": "ea957b44-c5d5-4194-bdc4-4e2a33f27781",
+    "ids": [
+      "ea957b44-c5d5-4194-bdc4-4e2a33f27781"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Hmmm I kind of already did so perhaps. I was thinking about my project concept for this big end-of-year assignment. And I was asking myself: \"is x data there? Can x data be weighted? What is the rate limit of that api? Is the api publicly accessible? Can I do a bulk import? etc\""
+      }
+    ],
+    "created_at": "2026-09-27 20:14:03",
+    "updated_at": 1790532852.54759
+  },
+  {
+    "id": "2c7a527a-e282-42c2-86b1-c13f814c79e3",
+    "ids": [
+      "2c7a527a-e282-42c2-86b1-c13f814c79e3"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "**Yes.** That's actually a really good example of *constructief kritisch*.\n\nWhat you're describing isn't just \"being skeptical.\" You're **testing whether your own concept survives contact with reality**:\n\n- *Is this data actually available?*\n- *Is the data sufficiently reliable/complete?*\n- *Can I weight this data in the way I intend?*\n- *Does the API allow what I need?*\n- *Are there rate limits that make my approach impractical?*\n- *Can I bulk-import the data, or would I have to do it manually?*\n- *What technical assumptions am I making, and are they actually true?*\n\nThat's constructive because you're not questioning things merely to criticize them. **You're using questions to improve your concept and prevent problems later.**\n\nSo I wouldn't make your development plan \"learn to be more critical.\" You already have evidence that you do this.\n\nInstead, your plan could be about **making that way of thinking more systematic and communicating it to others**.\n\nFor example:\n\n**Document Title: **\n\n**Beginsituatie**\n\nBij het uitwerken van mijn eindproject stel ik mezelf regelmatig kritische vragen over de haalbaarheid van mijn concept. Zo onderzoek ik bijvoorbeeld of bepaalde data beschikbaar is, of data op een bepaalde manier gewogen kan worden, welke beperkingen een API heeft en of bulkimport mogelijk is. Hierdoor probeer ik mogelijke problemen vroegtijdig te ontdekken en mijn concept waar nodig bij te sturen.\n\n**Ontwikkeldoel**\n\nIk wil mijn constructief kritische houding verder ontwikkelen door mijn aannames en keuzes systematisch te onderzoeken en mijn bevindingen te gebruiken om mijn eigen werk en dat van mijn team te verbeteren.\n\n**Actie**\n\nBij belangrijke keuzes binnen mijn project noteer ik welke aannames ik maak en probeer ik deze te controleren aan de hand van bronnen, testen of feedback. Wanneer ik een mogelijk probleem ontdek, probeer ik niet alleen het probleem aan te wijzen, maar ook een alternatief of mogelijke oplossing te formuleren. Ik bespreek belangrijke bevindingen met mijn team en gebruik deze om het concept waar nodig bij te sturen.\n\n**Succescriterium**\n\nIk kan bij belangrijke ontwerp- en technische keuzes aantonen welke vragen of risico's ik heb onderzocht, welke conclusies ik daaruit heb getrokken en hoe deze mijn uiteindelijke keuzes hebben beïnvloed.\n\nAnd honestly, **this is much stronger than inventing some arbitrary \"I will give two critical comments in every group meeting\" goal.**\n\nYou already have the behaviour. Your next step is essentially:\n\n> **\"I want to become more deliberate about something I already naturally do.\"**\n\nThat's a very believable portfolio development story."
+      }
+    ],
+    "created_at": "2026-09-27 20:14:04",
+    "updated_at": 1790532851.820796
+  },
+  {
+    "id": "7af32e82-5110-4239-af16-8b9342876d4a",
+    "ids": [
+      "7af32e82-5110-4239-af16-8b9342876d4a"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "maybe for the artifact of this sub goal, I can have 1 big document where (with titles and subtitles and etc), it shows my critical thinking of different projects and what questions I asked."
+      }
+    ],
+    "created_at": "2026-09-27 20:15:54",
+    "updated_at": 1790532965.920075
+  },
+  {
+    "id": "087425ac-e416-446e-a7f9-7c802eaa0d48",
+    "ids": [
+      "087425ac-e416-446e-a7f9-7c802eaa0d48"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Yes — **absolutely**. In fact, I think that would fit this subgoal really nicely.\n\nThe important part is that it shouldn't just become a list of *\"questions I asked.\"* You want the document to demonstrate the **thinking process** behind those questions.\n\nI'd make it something like a **\"Critical Thinking Logbook\"** or **\"Constructief Kritisch Denken — Portfolio\"**, which you keep adding to throughout the year.\n\nA structure like this would work well:\n\n**Document Title: **\n\n# Constructief Kritisch Denken\n\n## 1. Inleiding\n\nIn dit document verzamel ik voorbeelden waarin ik mij constructief kritisch heb opgesteld tijdens verschillende projecten. Ik documenteer hierbij niet alleen welke vragen ik heb gesteld, maar ook waarom ik deze vragen stelde, wat ik heb onderzocht, welke inzichten hieruit kwamen en hoe deze mijn handelen of het eindresultaat hebben beïnvloed.\n\n---\n\n## 2. Project: [Naam project]\n\n### 2.1 Context\n\nKorte beschrijving van het project en mijn rol hierin.\n\n### 2.2 Mijn kritische vragen\n\nTijdens dit project stelde ik onder andere de volgende vragen:\n\n- Is de benodigde data daadwerkelijk beschikbaar?\n- Kan deze data op een betrouwbare manier gewogen worden?\n- Wat zijn de rate limits van de gebruikte API?\n- Is de API publiek toegankelijk?\n- Is bulkimport mogelijk?\n- Welke aannames maak ik over de beschikbare data?\n\n### 2.3 Waarom stelde ik deze vragen?\n\nHier beschrijf ik welke mogelijke problemen of onzekerheden achter mijn vragen zaten. Bijvoorbeeld: ik wilde voorkomen dat mijn concept afhankelijk zou zijn van data of functionaliteit die uiteindelijk niet beschikbaar bleek te zijn.\n\n### 2.4 Onderzoek en bevindingen\n\nBeschrijf hier hoe ik de vragen heb onderzocht en wat ik heb ontdekt.\n\n### 2.5 Impact op mijn handelen\n\nWat heb ik door deze bevindingen aangepast?\n\nBijvoorbeeld:\n- een technische keuze aangepast;\n- een bepaalde databron vervangen;\n- mijn concept vereenvoudigd;\n- een bepaalde functionaliteit geschrapt;\n- een alternatief onderzocht.\n\n### 2.6 Reflectie\n\nWat heb ik hiervan geleerd over mijn eigen manier van denken en werken?\n\nWat zou ik bij een volgend project anders aanpakken?\n\n---\n\n## 3. Project: [Naam project]\n\n*Dezelfde structuur als hierboven.*\n\n---\n\n## 4. Project: [Naam project]\n\n*Dezelfde structuur als hierboven.*\n\n---\n\n## 5. Algemene reflectie\n\nWanneer ik de verschillende projecten naast elkaar leg, zie ik dat ik vooral kritisch ben wanneer ik de haalbaarheid van een idee probeer te bepalen. Ik stel vragen over aannames, beschikbare informatie, technische beperkingen en mogelijke problemen voordat ik een oplossing verder uitwerk.\n\nIk wil deze manier van werken verder ontwikkelen door mijn kritische vragen bewuster te documenteren en niet alleen problemen te identificeren, maar ook actief mogelijke oplossingen en alternatieven te onderzoeken.\n\n### And there's a sneaky advantage to doing it this way\n\nAs you add projects, you'll probably start seeing **patterns in your thinking**.\n\nFor example, maybe you notice:\n\n> \"I almost always question data availability.\"\n\nBut then:\n\n> \"I don't question accessibility enough.\"\n\nOr:\n\n> \"I'm good at finding technical risks, but I don't always question whether the solution is actually useful for the user.\"\n\n**That becomes your actual reflection.**\n\nAnd then your artifact isn't just evidence that *\"I asked a bunch of technical questions.\"* It demonstrates:\n\n**Question → Investigation → Insight → Change → Reflection**\n\nThat's a very convincing chain for **constructief kritisch handelen**.\n\nAnd I'd definitely keep it as **one living document** rather than making a separate artifact for every project. It makes the development over time visible, which is exactly what a portfolio is supposed to do."
+      }
+    ],
+    "created_at": "2026-09-27 20:15:56",
+    "updated_at": 1790532965.302887
+  },
+  {
+    "id": "90d021fc-090e-4c4f-a4dd-eed568512d9e",
+    "ids": [
+      "90d021fc-090e-4c4f-a4dd-eed568512d9e"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Same then for handelen obv feedback I think. Just 1 document where I explain the feedback, explain the impact, explain the improvement; that for every project this semester"
+      }
+    ],
+    "created_at": "2026-09-27 20:17:59",
+    "updated_at": 1790533090.486005
+  },
+  {
+    "id": "9a7dd750-4487-4b94-8d34-1c380961e4b5",
+    "ids": [
+      "9a7dd750-4487-4b94-8d34-1c380961e4b5"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Exactly. And I think that gives you a **really clean portfolio system**: instead of inventing a separate artifact for every competency, you have one evolving document per subgoal that accumulates evidence across the semester.\n\nFor **\"Handelen op basis van feedback en reflectie\"**, I'd structure it around the chain:\n\n**Feedback → Interpretation → Action → Improvement → Reflection**\n\nThe important bit is that you show that the feedback **actually changed something**. Merely collecting feedback isn't really the competency.\n\nFor example:\n\n**Document Title: **\n\n# Handelen op basis van feedback en reflectie\n\nIn dit document verzamel ik voorbeelden van feedback die ik tijdens verschillende projecten heb ontvangen. Per project beschrijf ik welke feedback ik kreeg, hoe ik deze heb geïnterpreteerd, welke actie ik heb ondernomen en wat het effect daarvan was.\n\n## 1. Project: [Naam project]\n\n### 1.1 Context\n\nKorte beschrijving van het project en mijn rol.\n\n### 1.2 Ontvangen feedback\n\nWelke feedback heb ik gekregen en van wie?\n\n> \"[Korte quote of samenvatting van de feedback]\"\n\n### 1.3 Mijn interpretatie\n\nWat betekende deze feedback voor mij?\n\nWaarom was deze feedback relevant? Ben ik het ermee eens? Was er iets dat ik eerst anders zag?\n\n### 1.4 Actie\n\nWat heb ik concreet gedaan met de feedback?\n\n- ...\n- ...\n- ...\n\n### 1.5 Verbetering / impact\n\nWat is er door mijn actie veranderd?\n\nIndien mogelijk toon ik hier ook het verschil tussen de oorspronkelijke en aangepaste versie.\n\n### 1.6 Reflectie\n\nWat heb ik hiervan geleerd?\n\nZou ik deze feedback in een volgende gelijkaardige situatie op een andere manier aanpakken?\n\n---\n\n## 2. Project: [Naam project]\n\n*Dezelfde structuur.*\n\n---\n\n## 3. Project: [Naam project]\n\n*Dezelfde structuur.*\n\n---\n\n## 4. Algemene reflectie\n\nWanneer ik de verschillende feedbackmomenten naast elkaar leg, reflecteer ik op patronen in mijn manier van werken.\n\n- Welke feedback krijg ik vaker?\n- Welke werkpunten komen terug?\n- Welke feedback vind ik moeilijker om te aanvaarden of toe te passen?\n- Welke verbeteringen heb ik daadwerkelijk kunnen doorvoeren?\n- Hoe heeft feedback mijn manier van werken gedurende het semester veranderd?\n\nOp basis hiervan formuleer ik een nieuw aandachtspunt voor mijn verdere ontwikkeling.\n\nAnd there's one thing I'd add that could make this **even stronger**:\n\n### Keep the original feedback as evidence\n\nSo your document might say:\n\n> **Feedback:** \"Your explanation of X is difficult to follow because...\"\n\nThen underneath:\n\n> **My response:** I reorganized section 3 and added...\n\nAnd ideally you attach/link the actual feedback, the original version, or the revised version.\n\nThat gives you a very clear chain:\n\n**Someone tells me something → I think about it → I do something → my work changes.**\n\nWhich is *much* more convincing than:\n\n> \"I received feedback and I learned from it.\"\n\n---\n\nAnd now you're starting to get a nice pattern for your whole Portflow:\n\n| Subgoal | Main artifact |\n|---|---|\n| **Constructief kritisch** | 📓 Critical Thinking Log — questions, investigation, decisions, reflection |\n| **Handelen obv feedback en reflectie** | 🔄 Feedback & Improvement Log — feedback, interpretation, action, result, reflection |\n| **Op de hoogte blijven & bijleren** | 📚 Learning Log — things learned, sources, application, reflection |\n| **Wereldburger** | 🌍 Ethical/Inclusive Practice Log — situations, considerations, decisions, reflection |\n| **Teamverband** | 🤝 Collaboration Log — contributions, teamwork situations, feedback, reflection |\n\nThat way, your portfolio isn't five random piles of evidence. It's basically **five ongoing development journals**, each showing how you're progressing throughout the semester. That's a pretty coherent system."
+      }
+    ],
+    "created_at": "2026-09-27 20:18:01",
+    "updated_at": 1790533090.270483
+  },
+  {
+    "id": "43b6e8b5-b8e8-42cb-97b2-eb933bf41adc",
+    "ids": [
+      "43b6e8b5-b8e8-42cb-97b2-eb933bf41adc"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Then \"op de hoogte blijven\"....\n\nRight..."
+      }
+    ],
+    "created_at": "2026-09-27 20:19:27",
+    "updated_at": 1790533179.802018
+  },
+  {
+    "id": "7ecf815c-a511-4765-8526-185480916e9f",
+    "ids": [
+      "7ecf815c-a511-4765-8526-185480916e9f"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Hahaha, yeah. This one is a little more annoying. 😅\n\nBecause **\"op de hoogte blijven en bijleren\"** can very easily turn into:\n\n> \"I read an article. There, competency achieved.\"\n\nWhich doesn't really demonstrate much.\n\nI think your previous approach still works, but the document should focus on **what you learned and what you did with it**, rather than simply collecting sources.\n\nI'd call it something like **Learning & Trends Log**.\n\nThe basic chain becomes:\n\n**New insight → Why is it relevant? → What did I learn? → Did it change/apply to my work? → Reflection**\n\n**Document Title: **\n\n# Op de hoogte blijven en bijleren\n\nIn dit document verzamel ik inzichten, technieken, trends en nieuwe kennis die ik tijdens het semester heb opgezocht of tegengekomen. Ik beschrijf niet alleen wat ik heb geleerd, maar ook waarom het relevant is voor mijn opleiding of toekomstige professionele handelen en hoe ik de kennis eventueel heb toegepast.\n\n## 1. [Onderwerp / inzicht]\n\n### 1.1 Aanleiding\n\nWaarom ben ik met dit onderwerp in aanraking gekomen?\n\nBijvoorbeeld:\n- Ik liep tegen een probleem aan tijdens een project.\n- Ik hoorde over een nieuwe technologie.\n- Een docent verwees naar een bepaalde techniek.\n- Ik merkte dat mijn huidige kennis onvoldoende was.\n\n### 1.2 Wat heb ik geleerd?\n\nWelke nieuwe kennis of inzichten heb ik opgedaan?\n\n### 1.3 Bron\n\nWelke bronnen heb ik gebruikt?\n\n- [Artikel / documentatie / onderzoek / video / cursus]\n- [Link]\n- [Datum]\n\n### 1.4 Relevantie\n\nWaarom is deze kennis relevant voor mijn opleiding, projecten of toekomstige beroep?\n\n### 1.5 Toepassing\n\nHeb ik deze kennis toegepast?\n\nZo ja: hoe?\n\nZo nee: hoe zou ik deze kennis in een toekomstige situatie kunnen gebruiken?\n\n### 1.6 Reflectie\n\nWat heeft dit veranderd aan mijn kennis of manier van werken?\n\n---\n\n## 2. [Onderwerp / inzicht]\n\n*Dezelfde structuur.*\n\n---\n\n## 3. [Onderwerp / inzicht]\n\n*Dezelfde structuur.*\n\n---\n\n## 4. Algemene reflectie\n\nDoorheen het semester kijk ik terug naar de verschillende onderwerpen die ik heb onderzocht en reflecteer ik op mijn ontwikkeling.\n\nWelke onderwerpen komen regelmatig terug? Welke kennis heb ik daadwerkelijk kunnen toepassen? Welke onderwerpen wil ik verder uitdiepen?\n\nIk gebruik deze reflectie om nieuwe leerdoelen te bepalen voor mijn verdere ontwikkeling.\n\nBut I'd make **one small adjustment** to your overall system here.\n\nFor the first two competencies, you have very concrete recurring material:\n\n- critical questions\n- feedback\n- improvements\n\nFor this one, I wouldn't force yourself to produce an entry every month just for the sake of having entries.\n\nInstead, have **two kinds of entries**:\n\n**1. \"I needed to know this.\"**\n\n> I encountered a problem → I researched it → learned something → used it.\n\nYour API example could actually fit here too. If you had to learn about rate limiting, authentication, pagination, API architecture, etc., that's legitimate professional learning.\n\n**2. \"I deliberately explored this.\"**\n\n> I noticed a new technology/trend/concept → I researched it → understood it → considered its relevance.\n\nThat second category is what demonstrates that you're **staying up to date**, rather than merely learning things when you're forced to.\n\nSo your eventual document might naturally contain things like:\n\n> **Project X — Learned about API rate limiting**  \n> Problem → research → insight → application\n\n> **Technology Y — New development in my field**  \n> Why I looked into it → what it does → relevance → possible future use\n\n> **Workshop / lecture — New concept**  \n> What I learned → what changed in my understanding\n\n> **Article / research — Interesting insight**  \n> Main takeaway → relevance to my field\n\nAnd then, at the **end of the semester**, you can look across all of these and write one bigger reflection:\n\n> *\"What did I actually learn this semester, and how has my knowledge/way of working changed?\"*\n\nThat final reflection is probably where the competency becomes most visible."
+      }
+    ],
+    "created_at": "2026-09-27 20:19:29",
+    "updated_at": 1790533179.199233
+  },
+  {
+    "id": "21bee4f7-c6dc-43d1-b425-0512c8ab2062",
+    "ids": [
+      "21bee4f7-c6dc-43d1-b425-0512c8ab2062"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "I'm... I'm... Hmm. \nnew insights... Through: through what? And how? And where?"
+      }
+    ],
+    "created_at": "2026-09-27 20:21:49",
+    "updated_at": 1790533319.122938
+  },
+  {
+    "id": "9f4c10d7-a887-4466-ab7e-d68df8da733b",
+    "ids": [
+      "9f4c10d7-a887-4466-ab7e-d68df8da733b"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Ahhh. **There it is.** I think *this* is the actual roadblock.\n\nYou're not struggling with what to put in the document. You're asking:\n\n> **\"Okay, but where am I supposed to get these 'new insights' from in the first place?\"**\n\nAnd that's a much better question.\n\nFor a student, **\"staying up to date\" doesn't have to mean reading industry news every morning.** You can deliberately create a few channels through which new information comes to you.\n\nI'd divide them into **4 sources**:\n\n### 1. Your own projects\n\nThis is probably the easiest one for you.\n\nYou're working on something → you encounter something you don't know → you investigate it.\n\nFor example:\n\n> \"I need to get X data from an API. How does pagination work?\"  \n> → research it → learn something → apply it.\n\nThat's **bijleren**.\n\n---\n\n### 2. Your education\n\nTeachers, lectures, workshops, guest speakers, feedback sessions, courses, documentation they recommend, etc.\n\nSomething comes up that you didn't know before:\n\n> \"Oh, I didn't know this approach existed.\"\n\n→ investigate it further → document it.\n\nYou don't necessarily need to independently discover everything.\n\n---\n\n### 3. Your professional field\n\nThis is the actual **\"op de hoogte blijven\"** part.\n\nDepending on your field, you could follow a small number of reliable sources:\n\n- newsletters\n- professional blogs\n- technical documentation\n- industry publications\n- research papers\n- conferences/talks\n- YouTube channels from professionals\n- GitHub projects / release notes\n- professional communities\n\nYou don't need **20 sources**. Pick maybe **3–5 sources that are actually relevant to what you want to become**.\n\nThen occasionally something catches your attention.\n\n**That's an entry in your log.**\n\n---\n\n### 4. Other people\n\nThis one is easy to overlook.\n\nYou can learn something new because:\n\n- a classmate shows you a technique\n- a teacher gives you a different perspective\n- someone in your group uses a tool you've never seen\n- you discuss your project with someone\n- you get feedback from someone with more experience\n\nThat's also **new insight**.\n\n---\n\n## So maybe your actual plan is not\n\n> \"I will find a new insight every month.\"\n\nThat's artificial.\n\nInstead:\n\n> **\"I will deliberately expose myself to new information through my projects, education, professional sources and conversations with others, and document the insights that are relevant to my development.\"**\n\nAnd then make the *process* concrete:\n\n### Your semester system\n\n**Every week/month:**\n\n**Projects**\n→ Did I encounter something I didn't know?\n\n**Education**\n→ Did I encounter a new concept/technique/idea?\n\n**Professional sources**\n→ Did something interesting come up?\n\n**People**\n→ Did someone teach/show me something new?\n\nIf the answer to any of those is **yes**, it can become an entry.\n\nAnd if you go through a month and nothing particularly interesting happened?\n\n**That's okay.**\n\nYou're not manufacturing learning for the portfolio. You're creating a habit of **noticing and capturing learning that is already happening.**\n\nI actually think that distinction could make this competency much easier for you."
+      }
+    ],
+    "created_at": "2026-09-27 20:21:51",
+    "updated_at": 1790533318.505934
+  },
+  {
+    "id": "4e88f976-0af0-42a0-82f5-8b03f818450f",
+    "ids": [
+      "4e88f976-0af0-42a0-82f5-8b03f818450f"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "A little difficult to plan that ahead but I'll keep that in mind what you said.\nmoving on to... \"wereldburger, ethisch handelen\"...\n\nRight I have a feeling and a want to just freaking skip this. This feels like some textbook meets practice and goes horribly wrong honestly or is it just me?"
+      }
+    ],
+    "created_at": "2026-09-27 20:23:56",
+    "updated_at": 1790533447.851675
+  },
+  {
+    "id": "4db52086-4520-4d17-b459-0803ea04727b",
+    "ids": [
+      "4db52086-4520-4d17-b459-0803ea04727b"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "No, I don't think it's just you. 😭\n\n**\"Wereldburger, ethisch handelen\" is probably the most awkwardly phrased one of the five.** It has that very recognizable *\"someone wrote this competency framework in a meeting\"* quality.\n\nBecause look at the jump:\n\n> **\"The professional acts ethically, deontologically and inclusively as a world citizen.\"**\n\nOkay. Cool.  \n**What does that mean when I'm sitting at my laptop making an application?**\n\nAnd I think that's why it feels like *textbook meets practice and explodes*. The concept is huge, but your actual situations are usually much smaller.\n\nThe way I'd approach it is **not** to make yourself \"more of a world citizen.\" That's far too vague.\n\nInstead, look for moments where your professional decisions have **consequences for other people**.\n\nFor your kind of project, that could be things like:\n\n- **Privacy:** Am I collecting data I actually need? What happens to it?\n- **Accessibility:** Can people with different abilities actually use what I'm making?\n- **Inclusivity:** Am I unconsciously designing for only one type of user?\n- **Bias:** Could my data, algorithm, or assumptions disadvantage certain people?\n- **Transparency:** Does the user understand what the system is doing?\n- **AI:** If I use AI, what are the implications? Am I presenting generated information as fact?\n- **Data sources:** Am I allowed to use this data? Is the source trustworthy?\n- **Environmental impact:** Is there a more efficient way to accomplish the same thing?\n- **Cultural differences:** Am I assuming that everyone approaches the problem in the same way?\n- **Professional responsibility:** Just because I *can* build something, does that mean I *should*?\n\nAnd importantly:\n\n**You don't have to manufacture an ethical crisis.**\n\nIf your project genuinely doesn't present an ethical dilemma, you can document that you **considered** the relevant issues and explain why they weren't problematic.\n\nFor example:\n\n> \"I considered whether the data I was using could contain personal information. Because the dataset contains only aggregated statistics and no individual-level information, I determined that this particular risk was limited.\"\n\nThat's ethical reasoning.\n\nOr:\n\n> \"I initially focused on whether the API technically allowed this functionality. During development I also considered whether collecting this information was actually necessary. I decided to remove X because the functionality could be achieved without collecting it.\"\n\nThat's **much more convincing** than writing a two-page essay about Kant because your competency sheet says \"ethisch.\"\n\n### And \"wereldburger\" can be treated similarly\n\nI wouldn't interpret it as:\n\n> *\"I must somehow demonstrate that I am a Global Citizen™.\"*\n\nI'd interpret it as:\n\n> **\"I understand that the things I make exist in a wider society, and I take that context into account.\"**\n\nThat's actually quite practical.\n\nAnd I think you could use **one document again**, but unlike the previous two, I wouldn't try to force one entry per project. I'd make it a collection of **ethical/inclusive considerations that actually arose**.\n\nSomething like:\n\n**Situation → Concern → Investigation → Decision → Consequence → Reflection**\n\nThat keeps it grounded in *your actual work* rather than textbook philosophy.\n\nSo no, I wouldn't skip it. **But I would absolutely refuse to let the competency wording dictate some artificial activity that has nothing to do with your actual professional work.**\n\nIn fact, I suspect this one will become easier once you look at your existing projects and ask one very simple question:\n\n> **\"At any point, did a decision I made affect other people besides me?\"**\n\nThat's probably where your real \"wereldburger / ethisch handelen\" evidence is hiding."
+      }
+    ],
+    "created_at": "2026-09-27 20:23:57",
+    "updated_at": 1790533447.37081
+  },
+  {
+    "id": "2b5c5bde-11d0-4670-8713-ed5963d599ea",
+    "ids": [
+      "2b5c5bde-11d0-4670-8713-ed5963d599ea"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "But honestly. I think I have enough artifacts as is to not really worry about this sub goal:\n-> Student job as a street cleaner during tomorrowland (best artifact)\n-> student ambassador during infoday of my college\n-> I once worked for the \"groendienst\" of my city many moons ago"
+      }
+    ],
+    "created_at": "2026-09-27 20:25:48",
+    "updated_at": 1790533559.217587
+  },
+  {
+    "id": "a805b15d-6427-42c5-9cd2-450d9c3a49f8",
+    "ids": [
+      "a805b15d-6427-42c5-9cd2-450d9c3a49f8"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Honestly? **Yes.** I think you're right.\n\nI wouldn't force another elaborate \"ethical development plan\" if you already have real experiences that demonstrate this part of the competency. In fact, those are arguably **better evidence** than manufacturing an ethical dilemma inside a school project.\n\nYou have:\n\n- **Street cleaner during Tomorrowland** → working in a large, diverse public environment, contributing to the functioning of a major event, dealing with public space and responsibility.\n- **Student ambassador at your college's infoday** → representing your institution, communicating with prospective students, interacting with people from different backgrounds, being responsible for how you present the college.\n- **Groendienst of your city** → public service, physical work, responsibility toward the shared environment/community.\n\nAnd the nice thing is that these aren't just three random jobs. You can frame them around different aspects of the competency.\n\n### I would probably make one artifact\n\nSomething like:\n\n**\"Maatschappelijke en professionele ervaringen\"**\n\nAnd for each experience, briefly explain:\n\n**Context → My role → What I learned → Connection to wereldburgerschap/ethics/inclusivity → Reflection**\n\nYou don't need 15 pages.\n\nFor example:\n\n> **Studentenjob — Street cleaner tijdens Tomorrowland**  \n> I worked in public space during a large international event. This made me experience how many different people, organizations and workers contribute to making such an event possible. My role was relatively small, but it was part of a larger system where responsibility, cooperation and respect for the shared environment mattered.\n\nThen perhaps:\n\n> **Student ambassador — Infoday**  \n> As an ambassador, I represented my college to prospective students. This required me to communicate clearly with people with different expectations and backgrounds, while being conscious of the responsibility that comes with representing the institution.\n\nAnd:\n\n> **Groendienst — [stad]**  \n> This experience gave me insight into work that directly contributes to the maintenance of public space and the living environment of a city.\n\nThen a **short overarching reflection** connecting them.\n\nThat is enough. You don't need to turn \"wereldburger\" into a semester-long research project.\n\nAnd actually, **the Tomorrowland one is particularly interesting** because it's a very concrete example of participating in society from a perspective that a student normally doesn't write about. You weren't there as a festivalgoer—you were contributing to the infrastructure that makes the public space function.\n\nSo I'd mark this competency as:\n\n> **Evidence already available → document and reflect → done.**\n\nYour first three subgoals are where I think your ongoing development logs make much more sense. This one can be **experience-based evidence** instead.\n\nThat also makes your eventual portfolio much less bloated."
+      }
+    ],
+    "created_at": "2026-09-27 20:25:50",
+    "updated_at": 1790533558.088346
+  },
+  {
+    "id": "2940317b-1fd1-48d9-8c61-b046aaa99d05",
+    "ids": [
+      "2940317b-1fd1-48d9-8c61-b046aaa99d05"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "And then the final role is like: \"what the actual actual actual are you talking about???\"\nTake a look at this:\n\"De startende professional draagt de **missie**, **visie** en **organisatiecultuur** uit. **Ondersteunt actief** bij het realiseren van de **strategische doelstellingen**.   \"\n\nWhen even the professor told us that this is the role that's hardest to fill in, I can see why. I thought: \"mate, I'm not a company neither am I a part of it\"."
+      }
+    ],
+    "created_at": "2026-09-27 20:27:59",
+    "updated_at": 1790533692.470253
+  },
+  {
+    "id": "3e03a127-6028-4e5d-8871-26f25bdc2957",
+    "ids": [
+      "3e03a127-6028-4e5d-8871-26f25bdc2957"
+    ],
+    "chatGroupId": "6ab95b1b-17fc-83ed-9f9e-2e4ad9fbdc23",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Oh, **this one is genuinely weird for a student.** Your reaction is completely understandable.\n\nThe wording basically assumes:\n\n> \"You are a starting professional inside an organization. Now demonstrate that you advance the organization's strategic objectives.\"\n\nAnd you're sitting there going:\n\n> **\"Which organization? I have a student project. 😭\"**\n\nBut I think there's a way to make this one work **without pretending you're an employee when you're not**.\n\nThe key is to interpret the competency at the level of **projects and organizations you're actually part of**.\n\n### The important distinction\n\nYou don't need to demonstrate:\n\n> \"I am personally advancing the strategic objectives of Company X.\"\n\nYou can demonstrate:\n\n> **\"When I participate in an organization/project, I understand its purpose and take it into account when deciding what I do.\"**\n\nThat is much more reasonable.\n\nAnd actually, you may have some very obvious artifacts already.\n\n---\n\n### Your student ambassador experience is potentially *perfect* for this\n\nThink about what you were doing at the infoday.\n\nYou weren't merely:\n\n> \"A student standing at a booth.\"\n\nYou were representing the college.\n\nSo there is already a direct connection:\n\n**Mission / vision / identity of the college**  \n↓  \n**You represent it to prospective students**  \n↓  \n**You communicate its values and information**  \n↓  \n**Your actions contribute to the goal of the infoday**\n\nThat's basically the competency in miniature.\n\nYou don't even need to know the college's entire five-year strategic plan. You can reflect on **how you contributed to the purpose of the activity**.\n\n---\n\n### And your student projects can potentially work too\n\nSuppose you're doing a project for a client/organization.\n\nYou can show:\n\n> **What is this organization trying to achieve?**\n\nThen:\n\n> **How does my project contribute to that?**\n\nThen:\n\n> **How did that influence my decisions?**\n\nFor example, imagine the client says:\n\n> \"We want to make X more accessible to users.\"\n\nYou shouldn't just think:\n\n> \"Cool, I'll build X.\"\n\nYou might instead make decisions specifically because of that objective:\n\n> \"This requirement means I need to prioritize accessibility over feature Y.\"\n\n**That's \"ondersteunt actief bij het realiseren van strategische doelstellingen.\"**\n\nYou're aligning your work with the organization's objective.\n\n---\n\n### But here's the really important part\n\nI **wouldn't create a giant artifact specifically for this competency** if you don't have a natural context for it.\n\nYour professor saying it's the hardest role to fill is actually useful information. It suggests they're probably aware that students don't naturally have access to organizational strategy.\n\nSo I'd approach it as:\n\n> **\"I'll use situations where I actually had an organizational role, rather than manufacture one.\"**\n\nAnd your existing experiences are already promising:\n\n| Experience | Possible connection |\n|---|---|\n| **Student ambassador / infoday** | Representing the college's identity and contributing to the purpose of the event |\n| **Student job at Tomorrowland** | Working within a large organization's/event's operation and contributing to a shared objective |\n| **Groendienst** | Working within a public organization toward maintaining public space |\n| **Client/project work** | Aligning your work and decisions with the client's objectives |\n| **Group projects** | Understanding the goal of the project and contributing your work toward achieving it |\n\n### And I'd make the artifact very simple\n\nMaybe one document called:\n\n**\"Mijn bijdrage aan organisaties en projecten\"**\n\nFor each relevant experience:\n\n> **What was the organization/project trying to achieve?**  \n> **What was my role?**  \n> **How did I contribute?**  \n> **Did I have to make decisions based on the organization's goals/values?**  \n> **What did I learn about working within an organization?**\n\nThen you can finish with a reflection like:\n\n> *\"As a student, I have not yet worked as a full-time professional within an organization. However, through my experiences as a student ambassador and student employee, and through project work, I have already experienced how individual responsibilities contribute to broader organizational objectives. I want to further develop this by becoming more conscious of the mission and objectives behind the work I undertake.\"*\n\nAnd **that's honest**.\n\nYou're not claiming:\n\n> *\"I am a strategic mastermind who drives organizational transformation.\"*\n\nYou're saying:\n\n> **\"I'm a student. I've had limited exposure to this, but here are the contexts where I have actually experienced it, and here's what I'm learning.\"**\n\nWhich, frankly, is probably exactly what they should expect from a **startende professional**."
+      }
+    ],
+    "created_at": "2026-09-27 20:28:01",
+    "updated_at": 1790533691.949154
+  }
+]

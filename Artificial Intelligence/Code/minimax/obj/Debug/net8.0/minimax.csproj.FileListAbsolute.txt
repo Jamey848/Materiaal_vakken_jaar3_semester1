@@ -1,0 +1,14 @@
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\minimax.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\minimax.AssemblyInfoInputs.cache
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\minimax.AssemblyInfo.cs
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\minimax.csproj.CoreCompileInputs.cache
+C:\Users\jamey\Vakken jaar 3\minimax\bin\Debug\net8.0\minimax.exe
+C:\Users\jamey\Vakken jaar 3\minimax\bin\Debug\net8.0\minimax.deps.json
+C:\Users\jamey\Vakken jaar 3\minimax\bin\Debug\net8.0\minimax.runtimeconfig.json
+C:\Users\jamey\Vakken jaar 3\minimax\bin\Debug\net8.0\minimax.dll
+C:\Users\jamey\Vakken jaar 3\minimax\bin\Debug\net8.0\minimax.pdb
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\minimax.dll
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\refint\minimax.dll
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\minimax.pdb
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\minimax.genruntimeconfig.cache
+C:\Users\jamey\Vakken jaar 3\minimax\obj\Debug\net8.0\ref\minimax.dll

@@ -1,0 +1,14 @@
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\bin\Debug\net8.0\Pseudorandomness_AI.exe
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\bin\Debug\net8.0\Pseudorandomness_AI.deps.json
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\bin\Debug\net8.0\Pseudorandomness_AI.runtimeconfig.json
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\bin\Debug\net8.0\Pseudorandomness_AI.dll
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\bin\Debug\net8.0\Pseudorandomness_AI.pdb
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\Pseudorandomness_AI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\Pseudorandomness_AI.AssemblyInfoInputs.cache
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\Pseudorandomness_AI.AssemblyInfo.cs
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\Pseudorandomness_AI.csproj.CoreCompileInputs.cache
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\Pseudorandomness_AI.dll
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\refint\Pseudorandomness_AI.dll
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\Pseudorandomness_AI.pdb
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\Pseudorandomness_AI.genruntimeconfig.cache
+C:\Users\jamey\Vakken jaar 3\Pseudorandomness_AI\obj\Debug\net8.0\ref\Pseudorandomness_AI.dll

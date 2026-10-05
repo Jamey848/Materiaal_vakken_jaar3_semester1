@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jamey\\Vakken jaar 3\\Pseudorandomness_AI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35DF2D82-8941-42D1-A6D6-E2BCC417413F}|Pseudorandomness_AI.csproj|c:\\users\\jamey\\vakken jaar 3\\pseudorandomness_ai\\myclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DF2D82-8941-42D1-A6D6-E2BCC417413F}|Pseudorandomness_AI.csproj|solutionrelative:myclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DF2D82-8941-42D1-A6D6-E2BCC417413F}|Pseudorandomness_AI.csproj|c:\\users\\jamey\\vakken jaar 3\\pseudorandomness_ai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DF2D82-8941-42D1-A6D6-E2BCC417413F}|Pseudorandomness_AI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Myclass.cs",
+              "DocumentMoniker": "C:\\Users\\jamey\\Vakken jaar 3\\Pseudorandomness_AI\\Myclass.cs",
+              "RelativeDocumentMoniker": "Myclass.cs",
+              "ToolTip": "C:\\Users\\jamey\\Vakken jaar 3\\Pseudorandomness_AI\\Myclass.cs*",
+              "RelativeToolTip": "Myclass.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T13:00:59.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jamey\\Vakken jaar 3\\Pseudorandomness_AI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jamey\\Vakken jaar 3\\Pseudorandomness_AI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:57:51.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

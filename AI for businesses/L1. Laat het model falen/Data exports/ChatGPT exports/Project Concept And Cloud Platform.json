@@ -1,0 +1,280 @@
+[
+  {
+    "id": "5de74c95-8118-423e-9932-c66e7dad91f6",
+    "ids": [
+      "5de74c95-8118-423e-9932-c66e7dad91f6"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Ok ok so for this big assignment for the first semester of the final year, I have to make an application that:\n-> is containorized in docker\n-> Uses ci/cd via github actions\n-> Uses a custom made recommendations engine (ai)\n-> Has to be publicly accessible via cloud\n-> etc etc etc\n\nWe got the first lesson of that class. And we have to choose the concept of our ai and which cloud platform we are going to use.\nLet's first acknowledge all this information first"
+      }
+    ],
+    "created_at": "2026-09-27 10:42:46",
+    "updated_at": 1790498572.682383
+  },
+  {
+    "id": "a41d8950-b910-4e09-beaa-36eefb151536",
+    "ids": [
+      "a41d8950-b910-4e09-beaa-36eefb151536"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Yep — got it. 👍\n\nYou’re talking about a **large final-year, first-semester application project** with several engineering requirements that all have to come together.\n\nSo far, the assignment requirements are roughly:\n\n- 🐳 **Docker / containerization**\n  - The application needs to be containerized.\n- 🔄 **CI/CD with GitHub Actions**\n  - You’ll need an automated pipeline for things like testing, building, and deploying.\n- 🤖 **Custom AI recommendation engine**\n  - Not simply calling an existing recommendation API; you need to design/build your own recommendation component.\n- ☁️ **Public cloud deployment**\n  - The finished application must be publicly accessible over the internet.\n- 📦 **Other requirements**\n  - There will presumably be additional technical/project requirements that you'll get throughout the course.\n- 🏫 **Current assignment**\n  - For the first lesson, you need to decide on:\n    1. **The application concept / what your AI recommendation engine will recommend**\n    2. **The cloud platform you'll deploy it on**\n\nAnd importantly, we're **not designing the whole thing yet**. The immediate goal is to choose a concept and cloud platform that give you a solid foundation for satisfying all those requirements later.\n\nI’ve got the context. We can take this step by step and make sure the idea is actually realistic for a semester-long project rather than just sounding cool on paper."
+      }
+    ],
+    "created_at": "2026-09-27 10:42:47",
+    "updated_at": 1790498571.401304
+  },
+  {
+    "id": "5b6df7f8-5d68-490a-b0f1-32212d1c7342",
+    "ids": [
+      "5b6df7f8-5d68-490a-b0f1-32212d1c7342"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "For the ai agent. I am completaly and totally in love with a game recommendation agent. I have a huge passion for games, and doing something with games sounds like a dream.\nNot only that, I've experimented with fetching a users steam library and gaming history via api. I found it very easy and noted it as a major boost for my project. If I can immediatly get all the information from the user just like that, then my recommendation agent can make accurate recommendations right out the box almost"
+      }
+    ],
+    "created_at": "2026-09-27 10:44:26",
+    "updated_at": 1790498680.7721
+  },
+  {
+    "id": "9095343a-3991-4c40-94dd-e9358afbeaf7",
+    "ids": [
+      "9095343a-3991-4c40-94dd-e9358afbeaf7"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Honestly, **this is a really strong direction for your project** — especially because you already have hands-on experience with the Steam API.\n\nThe important thing isn't just that you *like games*. You've already identified a technical advantage that could make the AI component substantially more interesting:\n\n### 🎮 The basic idea\n\nA user connects their Steam account, and your application can potentially retrieve things like:\n\n- Their **owned games**\n- Their **playtime**\n- Their **recently played games**\n- Potentially other publicly available Steam data\n- Game metadata from another source/API if needed\n\nThat gives your recommendation engine a **real user profile** rather than asking:\n\n> \"What genres do you like?\"\n\nand expecting the user to manually tell you.\n\nInstead, you could derive something closer to:\n\n> \"This person has played 400 hours of Factorio, 180 hours of Baldur's Gate 3, 90 hours of Hades, and recently played Slay the Spire.\"\n\nFrom that, your system could infer characteristics of their preferences and recommend games accordingly.\n\nAnd there's an especially nice aspect to this for a school project:\n\n**You can demonstrate the AI making a recommendation based on actual user data.**\n\nFor example:\n\n> **\"Why am I recommending Against the Storm?\"**\n>\n> You have spent significant time playing Factorio, RimWorld and Frostpunk. Your library suggests a strong preference for management/strategy games with complex progression systems. Against the Storm shares several of those characteristics while introducing a roguelite structure that isn't strongly represented in your current library.\n\nThat is much more compelling as a demonstration than simply:\n\n> \"You like strategy games, so here's a strategy game.\"\n\n### 🤖 And the \"custom AI\" requirement becomes interesting\n\nYou don't necessarily need to build some gigantic neural network from scratch.\n\nYou could build your **own recommendation pipeline/algorithm**, for example:\n\n**Steam data → User profile → Feature extraction → Game similarity → Recommendation ranking**\n\nWhere you define the logic yourself.\n\nSomething like:\n\n```text\nSteam Library\n     ↓\nGame metadata\n     ↓\nUser preference profile\n     ↓\nCandidate games\n     ↓\nSimilarity / scoring engine\n     ↓\nRanked recommendations\n     ↓\n\"Why this game?\"\n```\n\nAnd then you have a lot of room to make the AI progressively more sophisticated.\n\nYou could start with relatively straightforward content-based recommendation:\n\n> \"The user's profile strongly resembles these games.\"\n\nThen potentially introduce things like:\n\n- genre preferences\n- playtime weighting\n- recently played weighting\n- developer/publisher preferences\n- tags\n- mechanics\n- multiplayer/single-player preferences\n- difficulty\n- average session length\n- release date preferences\n- price\n- games already owned\n- games already played\n- similarity between games\n- diversity between recommendations\n\nAnd eventually your system could produce something like:\n\n**Your recommendations**\n\n| Game | Score | Why? |\n|---|---:|---|\n| Game A | 94% | Strong match for your strategy + automation preferences |\n| Game B | 89% | Similar to games you've played heavily |\n| Game C | 86% | Matches your RPG preferences but introduces a new mechanic |\n\nThat gives you an actual **engineering/AI problem** to solve rather than bolting an LLM onto an otherwise normal application.\n\n---\n\n### 🚀 There's another huge advantage\n\nYour Steam integration could make the application feel like a **real product**, rather than a school CRUD application.\n\nSomething like:\n\n> **\"Connect your Steam account. We'll figure out what you like.\"**\n\nThen the application builds the user's profile automatically.\n\nYou could even have a visualization:\n\n```text\nYOUR GAMING PROFILE\n\nStrategy       ████████████████  84%\nRPG            ██████████████   73%\nSimulation     ████████████     64%\nAction         █████████        51%\nHorror         ████             21%\n\nPreferred:\n• Deep progression\n• Long-form games\n• Systems / management\n• Single-player\n• High replayability\n```\n\nAnd then:\n\n> **\"Based on your profile, here are 5 games you probably haven't considered.\"**\n\nThat's a **very demonstrable final-year project**.\n\nAnd because you personally care about the domain, you'll probably have a much easier time making the recommendation logic genuinely thoughtful. You can look at a recommendation and ask yourself, *\"Would I actually recommend this game to someone with this library?\"*\n\nThat is extremely valuable when you're tuning the system.\n\nSo yes: **I think the game recommendation concept deserves to be taken very seriously before we even start discussing alternatives.**\n\nThe next interesting question isn't *\"Can we make a game recommender?\"* — you've already got a very plausible starting point.\n\nIt's **what kind of game recommender do we want to build, and how ambitious should the AI architecture be given the semester?** That will also influence which cloud platform makes the most sense."
+      }
+    ],
+    "created_at": "2026-09-27 10:44:27",
+    "updated_at": 1790498680.243709
+  },
+  {
+    "id": "2c51bb0a-4c6b-4942-b077-1356062c2723",
+    "ids": [
+      "2c51bb0a-4c6b-4942-b077-1356062c2723"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "I did wonder: what API's would also be necessary for this project? Steam web api obvisouly, but that won't be enough on its own. I need to fetch specific details about a huge catalog of games: genre, tags, price, front picture, etc"
+      }
+    ],
+    "created_at": "2026-09-27 10:47:06",
+    "updated_at": 1790498842.037079
+  },
+  {
+    "id": "7e988545-4a25-4199-82fa-dbedb5138ab3",
+    "ids": [
+      "6e1a5e00-1735-44da-9fa4-c9c9541fa17e",
+      "d841ac25-ab46-45a1-aa35-13e4d19ea4b4",
+      "510ba887-7d44-458b-94a7-83e798266c20",
+      "9e92e2fd-35df-48cb-8bd2-f3e598c749d9",
+      "7e988545-4a25-4199-82fa-dbedb5138ab3"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": "Yes — and this is where the project gets **really interesting**, because Steam actually gives you a surprisingly good foundation. I checked the current Steam documentation, and I would **not immediately reach for a second game database**. ([Steamworks](https://partner.steamgames.com/doc/webapi/IStoreService?utm_source=chatgpt.com))\nI'd think about your data sources in **three layers**.\n\n### 1. Steam Web API — the user\n\nThis is the obvious one you already discovered.\n\nYour backend can use Steam's `IPlayerService` to retrieve a user's owned games, including playtime, and recently played games. `GetOwnedGames` can also include basic game information such as name and icon. ([Steamworks](https://partner.steamgames.com/doc/webapi/iplayerservice?l=dutch&utm_source=chatgpt.com))\nSo your pipeline could start:\n\n```text\nSteam account\n      ↓\nSteamID\n      ↓\nOwned games\n      ↓\nAppID + playtime + recently played\n      ↓\nUser profile\n```\n\nThat's fantastic for your recommendation engine because **playtime gives you a natural signal of preference strength**.\n\nSomeone owning 200 games isn't necessarily interested in all 200 equally.\n\n```text\nFactorio       1,240 hours  → VERY strong preference\nRimWorld         640 hours  → strong preference\nPortal 2          14 hours  → weak evidence\nGame X             0 hours  → almost no evidence\n```\n\n---\n\n# 2. Steam Store data — the games themselves\n\nThis is the big one you're thinking about.\n\nYou need a dataset describing **the candidate games**.\n\nAnd Steam actually has an official mechanism for this: `IStoreService/GetAppList`. It can provide a list of the games available on the Steam Store, with pagination and modification timestamps. The current documentation says it can return up to 50,000 results per request and can be used incrementally with `last_appid` / modification information. ([Steamworks](https://partner.steamgames.com/doc/webapi/IStoreService?utm_source=chatgpt.com))\nThat means you could build your own **Game Catalog database**.\n\nFor example:\n\n```text\nGame\n────────────────────────────\nappid\nname\ndescription\ndevelopers\npublishers\ngenres\ntags\nprice\nrelease_date\nheader_image\nscreenshots\nplatforms\nmetacritic\n...\n```\n\nAnd then:\n\n```text\nSteam Store\n     ↓\nYour ingestion service\n     ↓\nYour database\n     ↓\nRecommendation engine\n```\n\nThis is actually **much better architecturally** than making an API request every time somebody wants a recommendation.\n\n---\n\n# 3. But there's a catch 👀\n\nThe **game catalogue** and the **detailed game metadata** are slightly different problems.\n\nThe Steam Store has information like:\n\n- Genres\n- Tags\n- Description\n- Developers\n- Publishers\n- Images\n- Screenshots\n- Platforms\n- Release date\n- Pricing\n- etc.\n\nSteam's own store tagging system is particularly interesting for your project because tags cover things that ordinary genres don't capture — things like themes, mechanics, difficulty, atmosphere, etc. Steam explicitly describes tags as being used for game discovery and recommendations.([Steam Store](https://store.steampowered.com/tag?utm_source=chatgpt.com))\n\nAnd **tags are potentially gold for your AI**.\n\nImagine:\n\n```text\nHades\n\nGenres:\n  Action\n  Indie\n  RPG\n\nTags:\n  Roguelike\n  Action Roguelike\n  Fast-Paced\n  Difficult\n  Replay Value\n  Female Protagonist\n  Story Rich\n  Hack and Slash\n  Mythology\n  ...\n\n```\n\nThat's far more useful to a recommendation engine than simply:\n\n```text\nGenre = Action\n```\n\n---\n\n## So do you need another API?\n\n**Maybe — but I'd start with Steam-only.**\n\nI'd investigate the project in this order:\n\n| Source | Purpose | Importance |\n|---|---|---|\n| **Steam Web API** | User library + playtime | ⭐⭐⭐⭐⭐ |\n| **Steam Store data** | Game catalogue + metadata | ⭐⭐⭐⭐⭐ |\n| **Your own database** | Cache/normalize all game information | ⭐⭐⭐⭐⭐ |\n| **IGDB** | Additional game metadata | ⭐⭐⭐ |\n| **RAWG** | Alternative/extra metadata | ⭐⭐ |\n| **LLM API** | Natural-language explanations | Optional |\n\nThe last three aren't necessarily required.\n\n---\n\n# And this is where I'd make a really important architectural decision\n\n**Don't make your recommendation engine depend directly on external APIs.**\n\nInstead:\n\n```text\n                ┌───────────────┐\n                │  Steam APIs   │\n                └───────┬───────┘\n                        │\n                        ▼\n                ┌───────────────┐\n                │ Data Ingestion │\n                │    Service     │\n                └───────┬───────┘\n                        │\n                        ▼\n             ┌─────────────────────┐\n             │   Your Database     │\n             │                     │\n             │ Games               │\n             │ Tags                │\n             │ Genres              │\n             │ Prices              │\n             │ Images              │\n             │ Developers          │\n             │ etc.                │\n             └──────────┬──────────┘\n                        │\n                        ▼\n             ┌─────────────────────┐\n             │ Recommendation      │\n             │ Engine              │\n             └──────────┬──────────┘\n                        │\n                        ▼\n                  Recommendations\n```\n\nThat gives you **way more control**.\n\nAnd there's another benefit for the assignment: your professor can actually see that you've built a proper data pipeline rather than:\n\n> \"My application calls an API and asks an AI which game is good.\"\n\nInstead, you're building an actual recommendation system.\n\n---\n\n# 🧠 And I already see a potentially very cool AI architecture\n\nSuppose your database contains 100,000 games.\n\nFor every game, you create a feature representation:\n\n```text\nGame: Hades\n\nAction             1.0\nRoguelike          1.0\nRPG                0.7\nStory Rich         0.8\nDifficult          0.8\nFast-Paced         1.0\nSingleplayer       1.0\nMultiplayer        0.0\n...\n```\n\nThen you analyze the user's Steam history.\n\nIf they have:\n\n```text\nHades       200h\nDead Cells  150h\nSlay the Spire 100h\nDark Souls  300h\n```\n\nyou can construct a **user preference vector** from those games.\n\nThen:\n\n```text\nUSER PROFILE\n       ↓\nPreference vector\n       ↓\nCompare against every candidate game\n       ↓\nSimilarity score\n       ↓\nFilter games already owned\n       ↓\nRank candidates\n       ↓\nTop 10 recommendations\n```\n\nAnd suddenly you've got a legitimate recommendation algorithm.\n\nYou could even eventually introduce **embeddings**, collaborative filtering, or a hybrid approach if the course expects something more advanced.\n\n---\n\n## One thing I'd be careful about: price\n\nPrice is a particularly tricky feature because it is **dynamic**.\n\nYour recommendation database shouldn't necessarily say:\n\n```text\nCyberpunk 2077 = €59.99\n```\n\nforever.\n\nYou'd want something more like:\n\n```text\nGame\n └── current_price\n └── discount\n └── currency\n └── price_checked_at\n```\n\nor a separate price-history table.\n\nThat could even become a nice feature:\n\n> **\"This game normally costs €39.99, but it's currently 75% off.\"**\n\nWhich makes the application feel considerably more like an actual consumer product.\n\n---\n\n# And one final thought\n\nI **wouldn't decide on IGDB/RAWG yet**.\n\nYour first technical investigation should be:\n\n> **\"How much of the game catalogue can I realistically obtain from Steam itself, and what exactly does each endpoint give me?\"**\n\nBecause if Steam can provide 90%+ of what you need, using another API might actually make your architecture **more complicated for no meaningful benefit**.\n\nWe can map out **exactly which Steam endpoints/data sources you'd need**, what data each provides, what needs to be cached in your database, and then identify the genuine gaps where something like IGDB could be useful. That would be a really good next step before we touch the cloud-platform decision."
+      }
+    ],
+    "created_at": "2026-09-27 10:47:09",
+    "updated_at": 1790498841.139233
+  },
+  {
+    "id": "36313ea4-c7d1-47ea-b64f-9df26e56ba04",
+    "ids": [
+      "36313ea4-c7d1-47ea-b64f-9df26e56ba04"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Can the steam api also tell me like:\n\n\"Not only will I show you the tags of these games, I will show you the rating of each tag. so game x is 0.3 / rpg for example\""
+      }
+    ],
+    "created_at": "2026-09-27 10:48:58",
+    "updated_at": 1790498946.367773
+  },
+  {
+    "id": "e43bfc80-0e99-4e40-a5ec-3d1e73d8ab02",
+    "ids": [
+      "a74759be-5295-4af2-b458-bb30c464c837",
+      "51d5264b-fc48-4733-b944-2f1e60658ae4",
+      "87d269cc-4c9a-4cc7-9f55-9217922c8e16",
+      "5490c5ad-8c41-42bb-a1e0-ed386fa2190a",
+      "2e46b5c8-053f-46c0-8283-abeeb1203e54",
+      "e43bfc80-0e99-4e40-a5ec-3d1e73d8ab02"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": "Yes — **Steam has the concept of tag weighting**, but there is an important distinction between what Steam internally knows and what you can conveniently retrieve through its public APIs.\n\nSteam's own documentation says that tags have **relative weights**. The tags are ordered by their weight/relevance, and Steam uses those weights when determining similarity and recommendations. Steam says the top 20 tags are visible/used for these purposes. ([Steamworks](https://partner.steamgames.com/doc/store/tags?l=dutch&language=english&utm_source=chatgpt.com))\nSo conceptually, Steam's internal data can look something like:\n\n```text\nGame X\n\nRPG              ████████████████\nAction           ███████████\nOpen World       █████████\nStory Rich       ████████\nFantasy          ███████\nDifficult        ███\n```\n\nHowever, **I would not assume that Steam's public `appdetails` response gives you a clean numeric value like `RPG: 0.73`**. The commonly used Store `appdetails` data exposes genres/categories and lots of store metadata, but not a documented normalized per-tag score such as `0.3`. ([GitHub](https://github.com/burkanbogaz/steamworks-api/blob/main/README.md?utm_source=chatgpt.com))\n### But this is actually great news for your project\n\nBecause **you can create those weights yourself.**\n\nFor example, suppose Steam gives you:\n\n```text\nGame A:\n    RPG\n    Action\n    Open World\n    Story Rich\n    Fantasy\n```\n\nYou could turn that into your own feature vector:\n\n```text\nGame A\n\nRPG          = 1.00\nAction       = 0.80\nOpen World   = 0.65\nStory Rich   = 0.60\nFantasy      = 0.55\n```\n\nThose numbers would be **your recommendation engine's representation**, not Steam's.\n\nAnd then you can do something much more interesting.\n\nSuppose the user has:\n\n```text\nThe Witcher 3       200h\nCyberpunk 2077      150h\nSkyrim              100h\n```\n\nYour algorithm could look at the metadata of those games and infer:\n\n```text\nUSER PREFERENCE PROFILE\n\nRPG             0.91\nOpen World      0.86\nStory Rich      0.83\nFantasy         0.64\nAction          0.61\nMultiplayer     0.08\n```\n\nThen compare that vector against every game in your catalogue.\n\nThat's **much more defensible as a custom recommendation engine**, because you're not just saying:\n\n> \"This game has the RPG tag, therefore recommend it.\"\n\nYou're effectively saying:\n\n> \"Based on the games this user has spent significant amounts of time playing, RPG-related characteristics appear to be highly predictive of their interests. This candidate has a high similarity to that profile.\"\n\n### And there's an even cooler possibility\n\nSteam's tag system itself gives you useful information for designing this.\n\nSteam explains that tags come from developers, players, and moderators, and that tags are weighted/ordered according to relevance. It also explicitly says that tag information is used to determine which games are similar and for recommendation purposes. ([Steamworks](https://partner.steamgames.com/doc/store/tags?l=dutch&language=english&utm_source=chatgpt.com))\nSo your project could essentially build a **second, transparent recommendation layer on top of Steam's metadata**:\n\n```text\n                STEAM\n                  │\n        ┌─────────┴─────────┐\n        │                   │\n   User's games        Game metadata\n        │                   │\n        │             Genres / Tags\n        │                   │\n        └─────────┬─────────┘\n                  ▼\n          YOUR AI ENGINE\n                  │\n          Feature extraction\n                  │\n          User preference vector\n                  │\n          Candidate similarity\n                  │\n          Ranking / filtering\n                  │\n                  ▼\n          🎮 Recommendations\n```\n\nAnd **you get to decide what `0.3 RPG` actually means**.\n\nThat's a very important distinction for your assignment: **Steam provides the raw signals; your AI creates the model.**\n\nI'd actually be excited about this direction for the project, because it gives you a very clear answer when someone asks *\"Where is your AI?\"* — you can show them the mathematical/modeling process that transforms a Steam library into a personalized preference profile and then into recommendations."
+      }
+    ],
+    "created_at": "2026-09-27 10:49:00",
+    "updated_at": 1790498945.824027
+  },
+  {
+    "id": "a95de675-4c8b-4244-838a-401aae85f32d",
+    "ids": [
+      "a95de675-4c8b-4244-838a-401aae85f32d"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "Yes but how do you attribute those ratings? You can't just assume rpg = 1.00 for a game"
+      }
+    ],
+    "created_at": "2026-09-27 10:50:24",
+    "updated_at": 1790499040.553993
+  },
+  {
+    "id": "62fd13eb-499a-4f93-a1fe-aaa5dbfa9655",
+    "ids": [
+      "47cb2087-ea4b-40e3-bf81-9390faf69127",
+      "406300ee-5979-4e03-86a5-8205c156b9de",
+      "9d6c86ee-9eb3-4c17-a716-36a50197e4a4",
+      "6b57e0f3-df23-49eb-a9bf-22379b90a1b0",
+      "81fb1750-0b1f-4ce3-a735-94aef146724a",
+      "62fd13eb-499a-4f93-a1fe-aaa5dbfa9655"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": "Exactly. **You caught the flaw in my example.** I shouldn't have presented `RPG = 1.00`, `Action = 0.80`, etc. as if those were values we could arbitrarily assign. That would be a pretty questionable recommendation model.\n\nThere are actually **several defensible ways to derive those weights**, and this is where your project can become genuinely interesting.\n\n### 1. Steam already has a notion of tag weight\n\nSteam's own tagging system doesn't treat every tag equally. Steam says tags have **relative weights**, and that their ordering/weight can change as players apply tags. The top 20 tags are used for things like visibility and similarity/recommendation. Steam also explicitly notes that common tags such as \"Action\" have less influence than rarer, more specific tags such as \"Party-Based RPG.\" ([Steamworks](https://partner.steamgames.com/doc/store/tags?l=dutch&language=english&utm_source=chatgpt.com))\nSo conceptually, Steam has something like:\n\n```text\nGame X\n\nRPG             █████████████\nAction          ███████████\nOpen World      ████████\nStory Rich      ██████\nFantasy         █████\n```\n\n**But:** the public interfaces don't give us a nice documented:\n\n```json\n{\n  \"RPG\": 0.83,\n  \"Action\": 0.71\n}\n```\n\nthat we can simply consume.\n\nThat's the important distinction.\n\n---\n\n# 2. We can derive weights statistically\n\nAnd **this is probably what I'd want to do for your project**.\n\nSuppose your catalogue contains 50,000 games.\n\nYou discover:\n\n```text\nRPG              appears on 8,000 games\nAction           appears on 15,000 games\nOpen World       appears on 3,000 games\nParty-Based RPG  appears on 400 games\n```\n\nAn \"Action\" tag doesn't tell us very much because **tons of games are Action**.\n\n\"Party-Based RPG\" is much more informative.\n\nThis is basically the intuition behind **TF-IDF**, which is a very established technique from information retrieval.\n\nYou can calculate something along the lines of:\n\n```text\ntag_weight(game, tag)\n    = tag_presence × rarity_of_tag\n```\n\nSo:\n\n```text\nAction\n→ extremely common\n→ low information value\n\nParty-Based RPG\n→ relatively rare\n→ high information value\n```\n\nAnd now your weights aren't arbitrary.\n\nThey're **learned from your game catalogue**.\n\n---\n\n# 3. Then there's an even more important weight: the user\n\nThis is where your Steam-library idea becomes really powerful.\n\nImagine I have:\n\n```text\nBaldur's Gate 3      400h\nDivinity Original Sin 2   250h\nThe Witcher 3        180h\nCall of Duty          10h\n```\n\nWe can inspect the characteristics of the games I've actually spent time playing.\n\nSuppose we calculate:\n\n```text\n                  User preference\nRPG                    0.92\nStory Rich             0.86\nFantasy                0.78\nOpen World             0.71\nAction                 0.34\nMultiplayer            0.08\n```\n\n**Those numbers aren't manually assigned either.**\n\nThey're derived from the user's actual behaviour.\n\nFor example, conceptually:\n\n```text\nBaldur's Gate 3\n    RPG           × 400 hours\n    Story Rich    × 400 hours\n    Fantasy       × 400 hours\n\nDivinity OS2\n    RPG           × 250 hours\n    Story Rich    × 250 hours\n    Fantasy       × 250 hours\n\nThe Witcher 3\n    RPG           × 180 hours\n    Story Rich    × 180 hours\n    Fantasy       × 180 hours\n```\n\nThe aggregate tells us something about the user's preferences.\n\n---\n\n# 4. And you can make it smarter than raw playtime\n\nBecause there's an important problem:\n\n**Playtime ≠ enjoyment.**\n\nSomeone might have 1,000 hours in Counter-Strike because it's their main multiplayer game, but that doesn't necessarily mean they want every recommendation to be a competitive FPS.\n\nSo your model could combine several signals.\n\nFor example:\n\n```text\nPreference Strength =\n    playtime\n  + recent activity\n  + number of sessions\n  + genre/tag similarity\n  + perhaps user feedback\n```\n\nAnd you can normalize it.\n\nYou might eventually get:\n\n```text\nUSER PROFILE\n\n                 preference\nRPG                 0.91\nStory Rich          0.87\nFantasy             0.76\nSingleplayer        0.74\nOpen World          0.68\nAction              0.42\nMultiplayer         0.12\n```\n\nNow we're talking about a **real recommendation model**.\n\n---\n\n# 5. And then we can calculate the candidate's score\n\nSuppose we want to recommend:\n\n**Game X**\n\nIts features might be derived from your catalogue:\n\n```text\nGame X\n\nRPG             0.83\nStory Rich      0.71\nFantasy         0.90\nOpen World      0.45\nAction          0.65\nMultiplayer     0.00\n```\n\nAnd the user's profile is:\n\n```text\nRPG             0.91\nStory Rich      0.87\nFantasy         0.76\nOpen World      0.68\nAction          0.42\nMultiplayer     0.12\n```\n\nThen you can calculate **similarity between two vectors**.\n\nFor example, cosine similarity:\n\n```text\nUser vector\n      ↓\n[0.91, 0.87, 0.76, 0.68, 0.42, 0.12]\n\n          ↕ cosine similarity\n\nGame vector\n      ↓\n[0.83, 0.71, 0.90, 0.45, 0.65, 0.00]\n\n          ↓\n\n       0.87 similarity\n```\n\nAnd suddenly your recommendation isn't:\n\n> \"I decided this game is 80% RPG.\"\n\nIt's:\n\n> **\"This game's feature profile is highly similar to the profile inferred from your gaming behaviour.\"**\n\nThat's a **much stronger AI story**.\n\n---\n\n## And there's one more thing I really like about this\n\nYou don't even necessarily need an LLM for the core recommendation engine.\n\nIn fact, I'd probably keep the **actual recommendation algorithm deterministic and explainable**, and potentially use an LLM only later for the natural-language explanation.\n\nSo:\n\n```text\n              STEAM\n                │\n       ┌────────┴────────┐\n       │                 │\n   User data         Game catalogue\n       │                 │\n       └────────┬────────┘\n                ↓\n        Feature extraction\n                ↓\n        User preference vector\n                ↓\n        Candidate game vectors\n                ↓\n       Similarity calculation\n                ↓\n          Ranking engine\n                ↓\n       ┌────────┴────────┐\n       │                 │\n Recommendation      Explanation\n       │                 │\n       │              optional LLM\n       ↓                 ↓\n       └───────→ UI ←────┘\n```\n\nThat gives you a **custom AI recommendation engine** where you can actually explain the mathematics behind the recommendation.\n\nAnd Steam's documentation gives us a useful conceptual foundation: Steam itself says that tag overlap is used for similarity and recommendations, with rarer tags potentially carrying more influence than very common ones. ([Steamworks](https://partner.steamgames.com/doc/store/tags?l=dutch&language=english&utm_source=chatgpt.com))\nSo your project could essentially take that idea and build **your own transparent, measurable version of it**, using the user's actual Steam behaviour.\n\nThat's considerably more interesting than just assigning arbitrary `0.8`s to tags."
+      }
+    ],
+    "created_at": "2026-09-27 10:50:30",
+    "updated_at": 1790499040.164158
+  },
+  {
+    "id": "13efd190-74ad-49a9-ac4a-bf145111efec",
+    "ids": [
+      "13efd190-74ad-49a9-ac4a-bf145111efec"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "I'm interested in the endpoint that can give me those weighted tags. Can you show it to me?"
+      }
+    ],
+    "created_at": "2026-09-27 10:54:42",
+    "updated_at": 1790499291.832099
+  },
+  {
+    "id": "135a8372-1ee6-4446-b25a-75f9330c1d1c",
+    "ids": [
+      "8acafb3f-8ab7-4dde-9247-4d2ffa7d5355",
+      "212095d9-425a-478c-9899-b07270642999",
+      "04a60069-6680-4832-bfb8-fd979573898c",
+      "38c037c5-5714-4112-8097-193eaeab6304",
+      "135a8372-1ee6-4446-b25a-75f9330c1d1c"
+    ],
+    "chatGroupId": "6ab8d6f8-e95c-83eb-a70b-b83d1a6d5c6c",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-6",
+    "contents": [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "content": "Yes — but I need to correct something important from my previous answers.\n\n**There isn't a documented public Steam Web API endpoint that simply returns the numeric tag weights** (e.g. `RPG: 0.73`) for an arbitrary game.\n\nSteam absolutely **has weighted tags internally**. Their own Steamworks documentation says that tags have relative weights, that the top 20 are used for visibility/recommendations, and that community tagging can change those weights. ([Steamworks](https://partner.steamgames.com/doc/store/tags?l=dutch&language=english&utm_source=chatgpt.com))\nBut the normal public endpoint you're probably thinking of is:\n\n```text\nGET https://store.steampowered.com/api/appdetails?appids={APPID}\n```\n\nFor example:\n\n```text\nhttps://store.steampowered.com/api/appdetails?appids=730\n```\n\nThat gives you detailed store information — descriptions, pricing, screenshots, genres, categories, etc. — **but not the community tag weights as numeric values**. ([GitHub](https://github.com/burkanbogaz/steamworks-api/blob/main/README.md?utm_source=chatgpt.com))\n### So where are the weighted tags?\n\nThis is the interesting part.\n\nSteam's **store page itself contains information about community tags**, and there are ways of extracting that data from the store page. However, that's effectively **web-page parsing/scraping rather than a documented Steam Web API endpoint**, so I wouldn't want to build your university project's core architecture around an undocumented page structure. ([volcengine.com](https://www.volcengine.com/article/708336?utm_source=chatgpt.com))\nThere are also third-party APIs/datasets that expose the community tags, sometimes already ordered by their weighting, but that's a different proposition from Steam's official API. ([Crawlora](https://crawlora.net/docs/datasets/datasets-steam-games-item?utm_source=chatgpt.com))\n### And there's a subtle but VERY important distinction\n\nSteam's \"weight\" isn't necessarily what we originally imagined as:\n\n```text\nRPG = 0.73\nAction = 0.51\nFantasy = 0.42\n```\n\nSteam describes the tags as **ordered/weighted relative to one another**. Its Tag Wizard, for example, lets developers prioritize tags, and Steam says community tagging can increase a tag's weight. ([Steamworks](https://partner.steamgames.com/doc/store/tags?l=dutch&language=english&utm_source=chatgpt.com))\nSo I wouldn't assume there's a hidden official endpoint waiting to give us a beautiful normalized feature vector.\n\n---\n\n### This actually gives us a potentially better project direction\n\nWe could obtain something like:\n\n```text\nGame X\n\nRPG\nAction\nOpen World\nStory Rich\nFantasy\n```\n\nand then **build our own numerical representation from the underlying data**.\n\nFor example, if we can obtain community tag vote counts:\n\n```text\nRPG             12,483 votes\nAction           9,231 votes\nOpen World       7,821 votes\nStory Rich       6,103 votes\nFantasy          4,921 votes\n```\n\nwe can turn those into normalized/weighted features using a documented mathematical method.\n\nThat would be **your AI**, rather than pretending Steam's internal weights are available to us.\n\nSo the answer to your exact question is:\n\n> **Steam has weighted tags, but I cannot point you to an official public endpoint that returns those weights as numeric values.** The documented `appdetails` endpoint doesn't expose them.\n\nAnd honestly, **that's a good thing for our project design**, because now we have an actual interesting problem to solve: *how should our system derive game-feature weights from Steam's available data?*\n\nIf you want, I can next  and we can decide which source is viable for a production-quality student project."
+      }
+    ],
+    "created_at": "2026-09-27 10:54:45",
+    "updated_at": 1790499359.210218
+  }
+]

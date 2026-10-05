@@ -1,0 +1,40 @@
+[
+  {
+    "id": "14bbbcd6-0bcd-48b2-929f-5346ff929acf",
+    "ids": [
+      "14bbbcd6-0bcd-48b2-929f-5346ff929acf"
+    ],
+    "chatGroupId": "699d5a3f-2bfc-8330-982c-53e647a34b07",
+    "role": "user",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "auto",
+    "contents": [
+      {
+        "type": "text",
+        "content": "SQL window functions?"
+      }
+    ],
+    "created_at": "2026-02-24 08:58:57",
+    "updated_at": 0
+  },
+  {
+    "id": "6335f03c-5fa5-41d5-a41e-8dd621eee480",
+    "ids": [
+      "6335f03c-5fa5-41d5-a41e-8dd621eee480"
+    ],
+    "chatGroupId": "699d5a3f-2bfc-8330-982c-53e647a34b07",
+    "role": "assistant",
+    "model": "chatgpt",
+    "displayModel": "ChatGPT",
+    "modelId": "gpt-5-2",
+    "contents": [
+      {
+        "type": "text",
+        "content": "SQL window functions are incredibly powerful — they let you perform calculations across a set of rows related to the current row **without collapsing the result into a single row** like `GROUP BY` does.\n\nThink of them as:  \n👉 “Do aggregation… but keep every row.”\n\n---\n\n# 🔹 Basic Syntax\n\n```sql\nfunction_name() OVER (\n    PARTITION BY column\n    ORDER BY column\n    ROWS/RANGE frame_clause\n)\n```\n\n- **PARTITION BY** → divides rows into groups (like GROUP BY, but keeps rows)\n- **ORDER BY** → defines order within each partition\n- **ROWS / RANGE** → defines the window frame (optional)\n\n---\n\n# 🔹 Most Common Window Functions\n\n## 1️⃣ Ranking Functions\n\n### `ROW_NUMBER()`\nGives each row a unique number.\n\n```sql\nSELECT \n    employee,\n    salary,\n    ROW_NUMBER() OVER (ORDER BY salary DESC) AS rank\nFROM employees;\n```\n\n✔ No ties — every row gets a unique number.\n\n---\n\n### `RANK()`\nGives same rank for ties, but skips numbers.\n\n```sql\nRANK() OVER (ORDER BY salary DESC)\n```\n\nExample result:\n```\nSalary  Rank\n100     1\n100     1\n90      3\n```\n\n---\n\n### `DENSE_RANK()`\nSame rank for ties, but no skipped numbers.\n\n```\nSalary  Dense_Rank\n100     1\n100     1\n90      2\n```\n\n---\n\n## 2️⃣ Aggregate Window Functions\n\nThese work like normal aggregates — but without grouping away rows.\n\n### Running Total\n\n```sql\nSELECT\n    order_date,\n    amount,\n    SUM(amount) OVER (ORDER BY order_date) AS running_total\nFROM orders;\n```\n\n---\n\n### Partitioned Aggregate\n\n```sql\nSELECT\n    department,\n    employee,\n    AVG(salary) OVER (PARTITION BY department) AS dept_avg\nFROM employees;\n```\n\nEach employee sees their department’s average salary.\n\n---\n\n## 3️⃣ Offset Functions\n\n### `LAG()`\nAccess previous row.\n\n```sql\nSELECT\n    order_date,\n    revenue,\n    LAG(revenue) OVER (ORDER BY order_date) AS previous_day\nFROM sales;\n```\n\n---\n\n### `LEAD()`\nAccess next row.\n\n```sql\nLEAD(revenue) OVER (ORDER BY order_date)\n```\n\n---\n\n## 4️⃣ Window Frames (Very Important)\n\nControls which rows are included in the calculation.\n\n### Default:\n```sql\nRANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n```\n\n### Example: Moving 3-day average\n\n```sql\nSELECT\n    order_date,\n    AVG(amount) OVER (\n        ORDER BY order_date\n        ROWS BETWEEN 2 PRECEDING AND CURRENT ROW\n    ) AS moving_avg\nFROM orders;\n```\n\nThis includes:\n- current row\n- 2 previous rows\n\n---\n\n# 🔹 Key Difference: GROUP BY vs Window Function\n\n### GROUP BY\n```sql\nSELECT department, AVG(salary)\nFROM employees\nGROUP BY department;\n```\n\n👉 Returns 1 row per department\n\n---\n\n### Window Function\n```sql\nSELECT\n    department,\n    employee,\n    AVG(salary) OVER (PARTITION BY department)\nFROM employees;\n```\n\n👉 Returns ALL employees + department average\n\n---\n\n# 🔹 When to Use Window Functions\n\nThey are perfect for:\n\n- Rankings\n- Running totals\n- Moving averages\n- Percent of total\n- Comparing rows (current vs previous)\n- Top-N per group\n- Gap detection\n- Sessionization\n- Time-series analytics\n\n---\n\n# 🔹 Real Example: Top 3 Employees per Department\n\n```sql\nSELECT *\nFROM (\n    SELECT\n        department,\n        employee,\n        salary,\n        ROW_NUMBER() OVER (\n            PARTITION BY department\n            ORDER BY salary DESC\n        ) AS rn\n    FROM employees\n) t\nWHERE rn <= 3;\n```\n\n---\n\n# 🔹 Interview-Level Insight\n\nWindow functions execute **after WHERE, GROUP BY, and HAVING but before ORDER BY** in logical query processing.\n\nYou cannot use window functions in:\n- WHERE\n- GROUP BY\n- HAVING\n\nBut you can use them in:\n- SELECT\n- ORDER BY\n\n---\n\nIf you'd like, I can also explain:\n- Execution order with diagrams  \n- Performance considerations  \n- Advanced patterns (gaps & islands, sessionization)  \n- Practice problems with solutions  \n\nJust tell me your level — beginner, intermediate, or preparing for interviews 😊"
+      }
+    ],
+    "created_at": "2026-02-24 08:58:58",
+    "updated_at": 0
+  }
+]
