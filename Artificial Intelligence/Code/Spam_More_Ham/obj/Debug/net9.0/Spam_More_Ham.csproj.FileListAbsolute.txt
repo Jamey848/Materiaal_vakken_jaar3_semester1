@@ -1,0 +1,14 @@
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\bin\Debug\net9.0\Spam_More_Ham.exe
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\bin\Debug\net9.0\Spam_More_Ham.deps.json
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\bin\Debug\net9.0\Spam_More_Ham.runtimeconfig.json
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\bin\Debug\net9.0\Spam_More_Ham.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\bin\Debug\net9.0\Spam_More_Ham.pdb
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\Spam_More_Ham.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\Spam_More_Ham.AssemblyInfoInputs.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\Spam_More_Ham.AssemblyInfo.cs
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\Spam_More_Ham.csproj.CoreCompileInputs.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\Spam_More_Ham.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\refint\Spam_More_Ham.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\Spam_More_Ham.pdb
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\Spam_More_Ham.genruntimeconfig.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\Spam_More_Ham\obj\Debug\net9.0\ref\Spam_More_Ham.dll
