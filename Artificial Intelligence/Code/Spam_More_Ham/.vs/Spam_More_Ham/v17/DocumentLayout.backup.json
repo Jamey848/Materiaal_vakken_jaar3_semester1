@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{43DB4A16-6F75-4237-8017-70034FB924B3}|Spam_More_Ham.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43DB4A16-6F75-4237-8017-70034FB924B3}|Spam_More_Ham.csproj|c:\\users\\jamey\\vakken jaar 3\\semester 1\\artificial intelligence\\code\\spam_more_ham\\hamspam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43DB4A16-6F75-4237-8017-70034FB924B3}|Spam_More_Ham.csproj|solutionrelative:hamspam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43DB4A16-6F75-4237-8017-70034FB924B3}|Spam_More_Ham.csproj|c:\\users\\jamey\\vakken jaar 3\\semester 1\\artificial intelligence\\code\\spam_more_ham\\spam_more_ham.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{43DB4A16-6F75-4237-8017-70034FB924B3}|Spam_More_Ham.csproj|solutionrelative:spam_more_ham.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DB4A16-6F75-4237-8017-70034FB924B3}|Spam_More_Ham.csproj|c:\\users\\jamey\\vakken jaar 3\\semester 1\\artificial intelligence\\code\\spam_more_ham\\hamspam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DB4A16-6F75-4237-8017-70034FB924B3}|Spam_More_Ham.csproj|solutionrelative:hamspam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +30,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Spam_More_Ham",
+              "DocumentIndex": 1,
+              "Title": "Spam_More_Ham.csproj",
               "DocumentMoniker": "C:\\Users\\jamey\\Vakken jaar 3\\Semester 1\\Artificial Intelligence\\Code\\Spam_More_Ham\\Spam_More_Ham.csproj",
               "RelativeDocumentMoniker": "Spam_More_Ham.csproj",
               "ToolTip": "C:\\Users\\jamey\\Vakken jaar 3\\Semester 1\\Artificial Intelligence\\Code\\Spam_More_Ham\\Spam_More_Ham.csproj",
@@ -43,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Hamspam.cs",
               "DocumentMoniker": "C:\\Users\\jamey\\Vakken jaar 3\\Semester 1\\Artificial Intelligence\\Code\\Spam_More_Ham\\Hamspam.cs",
               "RelativeDocumentMoniker": "Hamspam.cs",
               "ToolTip": "C:\\Users\\jamey\\Vakken jaar 3\\Semester 1\\Artificial Intelligence\\Code\\Spam_More_Ham\\Hamspam.cs",
               "RelativeToolTip": "Hamspam.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv3UAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T13:02:49.459Z",
               "EditorCaption": ""
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jamey\\Vakken jaar 3\\Semester 1\\Artificial Intelligence\\Code\\Spam_More_Ham\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAIAAAAAAAAAAIA8wBMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T13:01:25.528Z",
               "EditorCaption": ""

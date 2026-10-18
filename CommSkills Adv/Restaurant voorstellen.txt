@@ -1,0 +1,41 @@
+AARTSELAAR
+
+#1
+Restaurant: "Sur Place"
+Adress: Dijkstraat 2, 2630 Aartselaar
+Beschrijving: Authentieke Belgisch-Franse keuken met een hedendaagse toets, dat is waarvoor SurPlace staat. Van vlees- en visgerechten tot pasta’s en vegetarische alternatieven, op onze vaste menukaart is er voor ieder wat wils te vinden.
+
+#2
+Restaurant: Guzto
+Adress: Kleistraat 175, 2630 Aartselaar
+Beschrijving: Passie voor de hedendaagse mediterraanse keuken met een uitgebreid gamma gerechten in “kleine” en “grote” portie, trendy aperitieven en vooral super véél goesting om u als klant culinair en gastvrij te verwennen!
+
+#3
+Restaurant: Resto San George
+Adress: Laar 28, 2630 Aartselaar
+Beschrijving: ontbreekt?
+
+#4
+Restaurant: Oliva Trattoria
+Adress: Hoevelei 181, 2630 Aartselaar
+Beschrijving: Oliva Trattoria staat voor een dagverse keuken. Door onze huisgemaakte pasta en onze focus op verse vis- en vleesgerechten onderscheiden wij ons van de andere restaurants uit onze omgeving.
+
+BOOM
+#1
+Restaurant: The Black Tree
+Oops nevermind: blijkbaar zijn ze failliet gegaan :(
+
+#2
+Restaurant: Trottaria
+Adress: Kaai 40, 2850 Boom
+Beschrijving: Een trattoria is een Italiaanse eetgelegenheid waar het menu hoofdzakelijk bestaat uit landelijke (vaak regionale) recepten. Daarnaast is het er over het algemeen minder formeel dan in een ristorante.
+
+#3
+Restaurant: Asia
+Adress: Beukenlaan 14, 2850 Boom
+Beschrijving: Aan een vaste formule kan je bij ons genieten van de Oosterse keuken. We serveren dit in de vorm van een buffet met warme en koude gerechtjes, wok, grill en teppanyaki. Afhaal is ook steeds mogelijk.
+
+#4
+Restaurant: Obelisk
+Adress: Antwerpsestraat 91, 2850 Boom
+Beschrijving: Ons prachtige interieur nodigt u uit om te genieten van een breed scala aan gerechten, zorgvuldig samengesteld om u het beste te bieden van de Belgische en Franse keuken. Van verfijnde à-la-cartegerechten tot smakelijke snacks, bij ons vindt u altijd iets naar uw smaak en dat alles tegen een uitstekende prijs-kwaliteitsverhouding.
