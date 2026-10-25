@@ -1,0 +1,14 @@
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\bin\Debug\net9.0\kNN.exe
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\bin\Debug\net9.0\kNN.deps.json
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\bin\Debug\net9.0\kNN.runtimeconfig.json
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\bin\Debug\net9.0\kNN.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\bin\Debug\net9.0\kNN.pdb
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\kNN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\kNN.AssemblyInfoInputs.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\kNN.AssemblyInfo.cs
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\kNN.csproj.CoreCompileInputs.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\kNN.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\refint\kNN.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\kNN.pdb
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\kNN.genruntimeconfig.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\kNN\obj\Debug\net9.0\ref\kNN.dll
