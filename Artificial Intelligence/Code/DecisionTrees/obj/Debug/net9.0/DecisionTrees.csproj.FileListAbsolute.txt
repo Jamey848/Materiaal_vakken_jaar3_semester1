@@ -1,0 +1,14 @@
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\bin\Debug\net9.0\DecisionTrees.exe
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\bin\Debug\net9.0\DecisionTrees.deps.json
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\bin\Debug\net9.0\DecisionTrees.runtimeconfig.json
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\bin\Debug\net9.0\DecisionTrees.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\bin\Debug\net9.0\DecisionTrees.pdb
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\DecisionTrees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\DecisionTrees.AssemblyInfoInputs.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\DecisionTrees.AssemblyInfo.cs
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\DecisionTrees.csproj.CoreCompileInputs.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\DecisionTrees.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\refint\DecisionTrees.dll
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\DecisionTrees.pdb
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\DecisionTrees.genruntimeconfig.cache
+C:\Users\jamey\Vakken jaar 3\Semester 1\Artificial Intelligence\Code\DecisionTrees\obj\Debug\net9.0\ref\DecisionTrees.dll
